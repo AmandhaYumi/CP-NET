@@ -4,13 +4,15 @@ namespace Kova.Domain.Entities;
 
 public class Pagamento
 {
-    public int IdPagamento { get; set; }
+    public Guid Id { get; private set; } = Guid.NewGuid();
 
-    public string StatusPagamento { get; set; } = string.Empty;
+    public StatusPagamento Status { get; private set; }
 
-    public TipoPagamento TipoPagamento { get; set; }
+    public TipoPagamento Tipo { get; private set; }
 
-    public int PedidoId { get; set; }
-
-    public Pedido Pedido { get; set; }
+    public Pagamento(StatusPagamento status, TipoPagamento tipo)
+    {
+        Status = status;
+        Tipo = tipo;
+    }
 }

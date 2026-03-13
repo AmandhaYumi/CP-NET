@@ -2,17 +2,27 @@
 
 public class Produto
 {
-    public int IdProduto { get; set; }
+    public Guid Id { get; private set; } = Guid.NewGuid();
 
-    public string NomeProduto { get; set; }
+    public string Nome { get; private set; }
 
-    public string DescricaoProduto { get; set; }
+    public string Descricao { get; private set; }
 
-    public decimal PrecoProduto { get; set; }
+    public decimal Preco { get; private set; }
 
-    public int CategoriaId { get; set; }
+    public int CategoriaId { get; private set; }
 
-    public Categoria Categoria { get; set; }
+    public List<Pedido> Pedidos { get; private set; }
 
-    public List<Pedido> Pedidos { get; set; }
-}
+    public Produto(string nome, string descricao, decimal preco, int categoriaId)
+    {
+        if (nome == null || nome.Length < 2)
+            throw new Exception("Nome inválido");
+        Nome = nome;
+        if (descricao == null || descricao.Length < 10)
+            throw new Exception("Descrição inválida");
+        Descricao = descricao;
+        Preco = preco;
+        CategoriaId = categoriaId;
+    }
+    }

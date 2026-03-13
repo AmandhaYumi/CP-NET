@@ -2,13 +2,26 @@
 
 public class Cliente
 {
-    public int IdCliente { get; set; }
+    public Guid Id { get; private set; } = Guid.NewGuid();
 
-    public string NomeCliente { get; set; }
+    public string Nome { get; private set; }
 
-    public string EmailCliente { get; set; }
+    public string Email { get; private set; }
 
-    public string TelefoneCliente { get; set; }
+    public string Telefone { get; private set; }
     
-    public List<Pedido> Pedidos { get; set; }
-} 
+    public List<Pedido> Pedidos { get; private set; }
+
+    public Cliente(string nome, string email, string telefone)
+    {
+        if (nome == null || nome.Length < 2)
+            throw new Exception("Nome inválido");
+        Nome = nome;
+        if (email == null || email.Length < 5)
+            throw new Exception("Email inválido");
+        Email = email;
+        if (telefone.Length != 11)
+            throw new Exception(" Telefone inválido");
+        Telefone = telefone;
+    }
+    }
