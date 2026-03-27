@@ -3664,11 +3664,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\erick\\OneDrive\\Desktop\\CP1-.NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\erick\\OneDrive\\Documentos\\CP1-.NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj",
       "projectName": "Kova.Infrastructure",
-      "projectPath": "C:\\Users\\erick\\OneDrive\\Desktop\\CP1-.NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\erick\\OneDrive\\Documentos\\CP1-.NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\erick\\OneDrive\\Desktop\\CP1-.NET\\KOVA\\Kova.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\erick\\OneDrive\\Documentos\\CP1-.NET\\KOVA\\Kova.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config"

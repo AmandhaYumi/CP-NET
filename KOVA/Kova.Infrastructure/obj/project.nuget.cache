@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fYy2Qy2Aec4=",
+  "dgSpecHash": "Bn1fb5t1qtg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\erick\\OneDrive\\Desktop\\CP1-.NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\erick\\OneDrive\\Documentos\\CP1-.NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\erick\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\erick\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
