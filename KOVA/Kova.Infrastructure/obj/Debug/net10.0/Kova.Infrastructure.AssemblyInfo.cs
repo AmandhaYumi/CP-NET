@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kova.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+964d0ed0f1db7cbc8434ba0231e69e6a06a220ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80ba15b7235595267dc2cd03a451171a21a943aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kova.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kova.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

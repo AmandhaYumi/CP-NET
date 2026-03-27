@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erick\\OneDrive\\Documentos\\CP1-.NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj": {}
+    "C:\\Users\\erick\\OneDrive\\Desktop\\CP1-.NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erick\\OneDrive\\Documentos\\CP1-.NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj": {
+    "C:\\Users\\erick\\OneDrive\\Desktop\\CP1-.NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erick\\OneDrive\\Documentos\\CP1-.NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\erick\\OneDrive\\Desktop\\CP1-.NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj",
         "projectName": "Kova.Infrastructure",
-        "projectPath": "C:\\Users\\erick\\OneDrive\\Documentos\\CP1-.NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\erick\\OneDrive\\Desktop\\CP1-.NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erick\\OneDrive\\Documentos\\CP1-.NET\\KOVA\\Kova.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\erick\\OneDrive\\Desktop\\CP1-.NET\\KOVA\\Kova.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,22 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
