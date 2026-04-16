@@ -2,44 +2,44 @@
 
 ## Integrantes do Grupo
 
-| Nome | RM |
-|------|----|
-| Amandha Yumi Toyota Artulino | 563549 |
+| Nome                           | RM     |
+| ------------------------------ | ------ |
+| Amandha Yumi Toyota Artulino   | 563549 |
 | Erick Takeshi Andrade Nakajune | 566059 |
-| Giovanna Bardella Gomes | 561439 |
+| Giovanna Bardella Gomes        | 561439 |
 
 ---
 
 ## Domínio do Projeto
 
-O projeto **KOVA** representa um **e-commerce de roupas**, modelado com foco no fluxo principal de compra em uma loja online.
+O domínio escolhido para o projeto é um **E-commerce de Roupas**.
 
-O sistema permite que clientes visualizem produtos, realizem pedidos e efetuem pagamentos, com as entidades organizadas em camadas seguindo os princípios de **Clean Architecture**.
+O projeto KOVA representa uma loja online, modelada com foco no fluxo principal de compra. O sistema permite que clientes visualizem produtos, realizem pedidos e efetuem pagamentos, com as entidades organizadas em camadas seguindo os princípios de Clean Architecture.
 
 ---
 
 ## Objetivo desta Entrega
 
-Esta entrega corresponde ao **CP2**, com foco em:
+Esta entrega corresponde ao CP2, com foco em:
 
-- persistência com Entity Framework Core
-- organização em camadas
-- criação de DbContext
-- mapeamentos com Fluent API
-- criação e versionamento de migrations
-- implementação de repositórios por contrato
-- configuração de injeção de dependência
-- uso de connection string de forma segura
+* persistência com Entity Framework Core
+* organização em camadas
+* criação de DbContext
+* mapeamentos com Fluent API
+* criação e versionamento de migrations
+* implementação de repositórios por contrato
+* configuração de injeção de dependência
+* uso de connection string de forma segura
 
 ---
 
 ## Tecnologias Utilizadas
 
-- .NET
-- ASP.NET Core Web API
-- Entity Framework Core
-- Oracle Entity Framework Core Provider
-- Oracle Database
+* .NET
+* ASP.NET Core Web API
+* Entity Framework Core
+* Oracle Entity Framework Core Provider
+* Oracle Database
 
 ---
 
@@ -47,20 +47,21 @@ Esta entrega corresponde ao **CP2**, com foco em:
 
 A solução está organizada em camadas:
 
-- Kova.Domain  
+* **Kova.Domain**
   Contém as entidades e regras centrais do domínio.
 
-- Kova.Application  
+* **Kova.Application**
   Contém as interfaces de repositório e contratos da aplicação.
 
-- Kova.Infrastructure  
+* **Kova.Infrastructure**
   Contém:
-  - DbContext
-  - configurações de mapeamento com Fluent API
-  - implementações de repositório
-  - migrations
 
-- Kova.api  
+  * DbContext
+  * configurações de mapeamento com Fluent API
+  * implementações de repositório
+  * migrations
+
+* **Kova.api**
   Projeto responsável pela exposição da API e configuração de DI.
 
 ---
@@ -69,11 +70,11 @@ A solução está organizada em camadas:
 
 As principais entidades do sistema são:
 
-- Cliente
-- Pedido
-- Pagamento
-- Produto
-- Categoria
+* Cliente
+* Pedido
+* Pagamento
+* Produto
+* Categoria
 
 ---
 
@@ -81,20 +82,17 @@ As principais entidades do sistema são:
 
 Os relacionamentos foram modelados da seguinte forma:
 
-- Cliente -> Pedido  
+* Cliente -> Pedido
   Um cliente pode realizar um ou mais pedidos.
 
-- Pedido -> Pagamento  
+* Pedido -> Pagamento
   Todo pedido possui um pagamento associado.
 
-- Pedido -> Produto  
-  Vários pedidos podem conter vários produtos.
-
-- Produto -> Categoria  
+* Produto -> Categoria
   Cada produto possui uma categoria.
 
-- Pedido <-> Produto  
-  Relacionamento muitos-para-muitos mapeado explicitamente.
+* Pedido <-> Produto
+  Relacionamento muitos-para-muitos (N:N) mapeado explicitamente.
 
 ---
 
@@ -102,11 +100,12 @@ Os relacionamentos foram modelados da seguinte forma:
 
 A persistência foi implementada na camada Infrastructure, contendo:
 
-- KovaDbContext
-- configurações por entidade com IEntityTypeConfiguration<T>
-- mapeamentos com Fluent API
-- migration inicial com o esquema do banco
-- repositórios concretos
+* KovaDbContext
+* configurações por entidade com IEntityTypeConfiguration
+* aplicação automática das configurações com ApplyConfigurationsFromAssembly
+* mapeamentos com Fluent API
+* migration inicial com o esquema do banco
+* repositórios concretos
 
 ---
 
@@ -116,20 +115,23 @@ As interfaces dos repositórios foram definidas na camada Application, e suas im
 
 Exemplos:
 
-- IClienteRepository
-- ICategoriaRepository
-- IProdutoRepository
-- IPedidoRepository
-- IPagamentoRepository
+* IClienteRepository
+* ICategoriaRepository
+* IProdutoRepository
+* IPedidoRepository
+* IPagamentoRepository
 
 ---
 
 ## Injeção de Dependência
 
-O registro de dependências foi configurado no projeto da API, utilizando um método de extensão da camada Infrastructure, incluindo:
+O registro de dependências foi configurado no projeto da API por meio do método:
 
-- AddDbContext
-- registro dos repositórios
+```csharp
+builder.Services.AddInfrastructure(builder.Configuration);
+```
+
+Esse método centraliza o registro do DbContext e dos repositórios no container de injeção de dependência da aplicação.
 
 ---
 
@@ -137,13 +139,13 @@ O registro de dependências foi configurado no projeto da API, utilizando um mé
 
 O SGBD utilizado neste projeto é:
 
-Oracle SQL Developer
+**Oracle Database**
 
 ---
 
 ## Connection String
 
-A connection string deve ser configurada no arquivo appsettings.Development.json do projeto da API.
+A connection string deve ser configurada no arquivo `appsettings.Development.json` do projeto da API.
 
 Exemplo seguro:
 
@@ -153,7 +155,8 @@ Exemplo seguro:
     "KovaOracle": "Data Source=oracle.fiap.com.br:1521/orcl;User ID=<USUARIO>;Password=<SENHA>;"
   }
 }
----
+```
+
 
 ## Como Executar o Projeto
 
@@ -172,13 +175,13 @@ dotnet build
 3. Aplicar a migration no banco
 
 ```
-dotnet ef database update --project KOVA/Kova.Infrastructure --startup-project KOVA/Kova.api
+dotnet ef database update --project Kova.Infrastructure --startup-project Kova.api
 ```
 
 4. Executar a API
 
 ```
-dotnet run --project KOVA/Kova.api
+dotnet run --project Kova.api
 ```
 
 ---
@@ -190,25 +193,25 @@ A solução contém migration versionada para criação inicial do schema do ban
 Exemplo de comando para gerar migrations:
 
 ```
-dotnet ef migrations add InitialCreate --project KOVA/Kova.Infrastructure --startup-project KOVA/Kova.api
+dotnet ef migrations add InitialCreate --project Kova.Infrastructure --startup-project Kova.api
 ```
 
 Exemplo de comando para aplicar:
 
 ```
-dotnet ef database update --project KOVA/Kova.Infrastructure --startup-project KOVA/Kova.api
+dotnet ef database update --project Kova.Infrastructure --startup-project Kova.api
 ```
 
 ---
 
 ## Evidências
 
-As evidências complementares da entrega podem ser encontradas na pasta /docs, incluindo:
+As evidências complementares da entrega podem ser encontradas na pasta `/docs`, incluindo:
 
-- diagrama do esquema
-- MER atualizado
-- prints do banco
-- justificativas de ajustes realizados
+* diagrama do esquema físico
+* MER atualizado
+* prints do banco após aplicação da migration
+* justificativas de ajustes realizados
 
 ---
 
