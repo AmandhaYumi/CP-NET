@@ -12,7 +12,7 @@ using Oracle.EntityFrameworkCore.Metadata;
 namespace Kova.Infrastructure.Migrations
 {
     [DbContext(typeof(KovaDbContext))]
-    [Migration("20260415214433_InitialCreate")]
+    [Migration("20260416183722_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -31,8 +31,8 @@ namespace Kova.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("RAW(16)");
 
-                    b.Property<bool>("Active")
-                        .HasColumnType("BOOLEAN");
+                    b.Property<int>("Active")
+                        .HasColumnType("NUMBER(1)");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("TIMESTAMP(7)");
@@ -58,8 +58,8 @@ namespace Kova.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("RAW(16)");
 
-                    b.Property<bool>("Active")
-                        .HasColumnType("BOOLEAN");
+                    b.Property<int>("Active")
+                        .HasColumnType("NUMBER(1)");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("TIMESTAMP(7)");
@@ -93,8 +93,8 @@ namespace Kova.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("RAW(16)");
 
-                    b.Property<bool>("Active")
-                        .HasColumnType("BOOLEAN");
+                    b.Property<int>("Active")
+                        .HasColumnType("NUMBER(1)");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("TIMESTAMP(7)");
@@ -120,8 +120,8 @@ namespace Kova.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("RAW(16)");
 
-                    b.Property<bool>("Active")
-                        .HasColumnType("BOOLEAN");
+                    b.Property<int>("Active")
+                        .HasColumnType("NUMBER(1)");
 
                     b.Property<Guid>("ClienteId")
                         .HasColumnType("RAW(16)");
@@ -138,7 +138,7 @@ namespace Kova.Infrastructure.Migrations
                         .HasColumnType("NVARCHAR2(50)");
 
                     b.Property<decimal>("ValorTotal")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("NUMBER(18,2)");
 
                     b.HasKey("Id");
 
@@ -156,8 +156,8 @@ namespace Kova.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("RAW(16)");
 
-                    b.Property<bool>("Active")
-                        .HasColumnType("BOOLEAN");
+                    b.Property<int>("Active")
+                        .HasColumnType("NUMBER(1)");
 
                     b.Property<Guid>("CategoriaId")
                         .HasColumnType("RAW(16)");
@@ -176,7 +176,7 @@ namespace Kova.Infrastructure.Migrations
                         .HasColumnType("NVARCHAR2(120)");
 
                     b.Property<decimal>("Preco")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("NUMBER(18,2)");
 
                     b.HasKey("Id");
 

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj",
+      "projectUniqueName": "D:\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj",
       "projectName": "Kova.Domain",
-      "projectPath": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj",
+      "projectPath": "D:\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj",
       "packagesPath": "C:\\Users\\labsfiap\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Domain\\obj\\",
+      "outputPath": "D:\\CP-NET\\KOVA\\Kova.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

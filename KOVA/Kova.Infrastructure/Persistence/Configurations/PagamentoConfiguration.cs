@@ -40,6 +40,16 @@ public class PagamentoConfiguration : IEntityTypeConfiguration<Pagamento>
  
         builder.Property(x => x.Active)
 
+            .HasColumnType("NUMBER(1)")
+
+            .HasConversion(
+
+                v => v ? 1 : 0,
+
+                v => v == 1
+
+            )
+
             .IsRequired();
 
     }

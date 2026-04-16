@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.api\\Kova.api.csproj": {}
+    "D:\\CP-NET\\KOVA\\Kova.api\\Kova.api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.api\\Kova.api.csproj": {
+    "D:\\CP-NET\\KOVA\\Kova.api\\Kova.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.api\\Kova.api.csproj",
+        "projectUniqueName": "D:\\CP-NET\\KOVA\\Kova.api\\Kova.api.csproj",
         "projectName": "Kova.api",
-        "projectPath": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.api\\Kova.api.csproj",
+        "projectPath": "D:\\CP-NET\\KOVA\\Kova.api\\Kova.api.csproj",
         "packagesPath": "C:\\Users\\labsfiap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.api\\obj\\",
+        "outputPath": "D:\\CP-NET\\KOVA\\Kova.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj"
+              "D:\\CP-NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj": {
+                "projectPath": "D:\\CP-NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Application\\Kova.Application.csproj": {
+    "D:\\CP-NET\\KOVA\\Kova.Application\\Kova.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Application\\Kova.Application.csproj",
+        "projectUniqueName": "D:\\CP-NET\\KOVA\\Kova.Application\\Kova.Application.csproj",
         "projectName": "Kova.Application",
-        "projectPath": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Application\\Kova.Application.csproj",
+        "projectPath": "D:\\CP-NET\\KOVA\\Kova.Application\\Kova.Application.csproj",
         "packagesPath": "C:\\Users\\labsfiap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Application\\obj\\",
+        "outputPath": "D:\\CP-NET\\KOVA\\Kova.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -122,8 +122,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj": {
-                "projectPath": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj"
+              "D:\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj": {
+                "projectPath": "D:\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj"
               }
             }
           }
@@ -163,14 +163,14 @@
         }
       }
     },
-    "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj": {
+    "D:\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj",
+        "projectUniqueName": "D:\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj",
         "projectName": "Kova.Domain",
-        "projectPath": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj",
+        "projectPath": "D:\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj",
         "packagesPath": "C:\\Users\\labsfiap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Domain\\obj\\",
+        "outputPath": "D:\\CP-NET\\KOVA\\Kova.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -229,14 +229,14 @@
         }
       }
     },
-    "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj": {
+    "D:\\CP-NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj",
+        "projectUniqueName": "D:\\CP-NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj",
         "projectName": "Kova.Infrastructure",
-        "projectPath": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj",
+        "projectPath": "D:\\CP-NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\labsfiap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Infrastructure\\obj\\",
+        "outputPath": "D:\\CP-NET\\KOVA\\Kova.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -258,11 +258,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Application\\Kova.Application.csproj": {
-                "projectPath": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Application\\Kova.Application.csproj"
+              "D:\\CP-NET\\KOVA\\Kova.Application\\Kova.Application.csproj": {
+                "projectPath": "D:\\CP-NET\\KOVA\\Kova.Application\\Kova.Application.csproj"
               },
-              "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj": {
-                "projectPath": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj"
+              "D:\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj": {
+                "projectPath": "D:\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj"
               }
             }
           }

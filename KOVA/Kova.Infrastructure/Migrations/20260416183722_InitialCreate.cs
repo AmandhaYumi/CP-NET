@@ -19,7 +19,7 @@ namespace Kova.Infrastructure.Migrations
                     Nome = table.Column<string>(type: "NVARCHAR2(100)", maxLength: 100, nullable: false),
                     Descricao = table.Column<string>(type: "NVARCHAR2(300)", maxLength: 300, nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: false),
-                    Active = table.Column<bool>(type: "BOOLEAN", nullable: false)
+                    Active = table.Column<int>(type: "NUMBER(1)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -35,7 +35,7 @@ namespace Kova.Infrastructure.Migrations
                     Email = table.Column<string>(type: "NVARCHAR2(150)", maxLength: 150, nullable: false),
                     Telefone = table.Column<string>(type: "NVARCHAR2(11)", maxLength: 11, nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: false),
-                    Active = table.Column<bool>(type: "BOOLEAN", nullable: false)
+                    Active = table.Column<int>(type: "NUMBER(1)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -50,7 +50,7 @@ namespace Kova.Infrastructure.Migrations
                     Status = table.Column<string>(type: "NVARCHAR2(50)", maxLength: 50, nullable: false),
                     Tipo = table.Column<string>(type: "NVARCHAR2(50)", maxLength: 50, nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: false),
-                    Active = table.Column<bool>(type: "BOOLEAN", nullable: false)
+                    Active = table.Column<int>(type: "NUMBER(1)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -64,10 +64,10 @@ namespace Kova.Infrastructure.Migrations
                     Id = table.Column<Guid>(type: "RAW(16)", nullable: false),
                     Nome = table.Column<string>(type: "NVARCHAR2(120)", maxLength: 120, nullable: false),
                     Descricao = table.Column<string>(type: "NVARCHAR2(500)", maxLength: 500, nullable: false),
-                    Preco = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Preco = table.Column<decimal>(type: "NUMBER(18,2)", nullable: false),
                     CategoriaId = table.Column<Guid>(type: "RAW(16)", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: false),
-                    Active = table.Column<bool>(type: "BOOLEAN", nullable: false)
+                    Active = table.Column<int>(type: "NUMBER(1)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -85,12 +85,12 @@ namespace Kova.Infrastructure.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "RAW(16)", nullable: false),
-                    ValorTotal = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    ValorTotal = table.Column<decimal>(type: "NUMBER(18,2)", nullable: false),
                     Status = table.Column<string>(type: "NVARCHAR2(50)", maxLength: 50, nullable: false),
                     ClienteId = table.Column<Guid>(type: "RAW(16)", nullable: false),
                     PagamentoId = table.Column<Guid>(type: "RAW(16)", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: false),
-                    Active = table.Column<bool>(type: "BOOLEAN", nullable: false)
+                    Active = table.Column<int>(type: "NUMBER(1)", nullable: false)
                 },
                 constraints: table =>
                 {

@@ -10,3 +10,15 @@ C:\Users\labsfiap\Downloads\CP-NET\KOVA\Kova.Domain\obj\Debug\net9.0\Kova.Domain
 C:\Users\labsfiap\Downloads\CP-NET\KOVA\Kova.Domain\obj\Debug\net9.0\refint\Kova.Domain.dll
 C:\Users\labsfiap\Downloads\CP-NET\KOVA\Kova.Domain\obj\Debug\net9.0\Kova.Domain.pdb
 C:\Users\labsfiap\Downloads\CP-NET\KOVA\Kova.Domain\obj\Debug\net9.0\ref\Kova.Domain.dll
+D:\CP-NET\KOVA\Kova.Domain\bin\Debug\net9.0\Kova.Domain.deps.json
+D:\CP-NET\KOVA\Kova.Domain\bin\Debug\net9.0\Kova.Domain.dll
+D:\CP-NET\KOVA\Kova.Domain\bin\Debug\net9.0\Kova.Domain.pdb
+D:\CP-NET\KOVA\Kova.Domain\obj\Debug\net9.0\Kova.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\CP-NET\KOVA\Kova.Domain\obj\Debug\net9.0\Kova.Domain.AssemblyInfoInputs.cache
+D:\CP-NET\KOVA\Kova.Domain\obj\Debug\net9.0\Kova.Domain.AssemblyInfo.cs
+D:\CP-NET\KOVA\Kova.Domain\obj\Debug\net9.0\Kova.Domain.csproj.CoreCompileInputs.cache
+D:\CP-NET\KOVA\Kova.Domain\obj\Debug\net9.0\Kova.Domain.sourcelink.json
+D:\CP-NET\KOVA\Kova.Domain\obj\Debug\net9.0\Kova.Domain.dll
+D:\CP-NET\KOVA\Kova.Domain\obj\Debug\net9.0\refint\Kova.Domain.dll
+D:\CP-NET\KOVA\Kova.Domain\obj\Debug\net9.0\Kova.Domain.pdb
+D:\CP-NET\KOVA\Kova.Domain\obj\Debug\net9.0\ref\Kova.Domain.dll

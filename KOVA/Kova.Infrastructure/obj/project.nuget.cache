@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iuxXD1Kkaug=",
+  "dgSpecHash": "ajOBXvQ/qMs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\labsfiap\\Downloads\\CP-NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj",
+  "projectFilePath": "D:\\CP-NET\\KOVA\\Kova.Infrastructure\\Kova.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\labsfiap\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\labsfiap\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
