@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FIyRGU590Ic=",
+  "dgSpecHash": "4vVkpRUYOY0=",
   "success": true,
-  "projectFilePath": "D:\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ginad\\OneDrive - Fiap-Faculdade de Informática e Administração Paulista\\Área de Trabalho\\CP-NET\\KOVA\\Kova.Domain\\Kova.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ginad\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.13\\microsoft.netcore.app.ref.9.0.13.nupkg.sha512",
+    "C:\\Users\\ginad\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.13\\microsoft.windowsdesktop.app.ref.9.0.13.nupkg.sha512",
+    "C:\\Users\\ginad\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.13\\microsoft.aspnetcore.app.ref.9.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
